@@ -1,0 +1,125 @@
+.post {
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.post__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+}
+
+.post__user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.post__avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.post__username {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.post__verified {
+  color: #0095f6;
+  width: 14px;
+  height: 14px;
+}
+
+.post__dot,
+.post__time {
+  color: #8e8e8e;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.post__more {
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #262626;
+  padding: 4px;
+}
+
+.post__image-btn {
+  width: 100%;
+  display: block;
+  cursor: pointer;
+}
+
+.post__image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  background: #efefef;
+}
+
+.post__actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 16px 0;
+}
+
+.post__actions-left {
+  display: flex;
+  gap: 16px;
+}
+
+.post__action {
+  padding: 8px 0;
+}
+
+.post__icon {
+  width: 24px;
+  height: 24px;
+  color: #262626;
+}
+
+.post__icon--filled {
+  color: #ed4956;
+}
+
+.post__icon--saved {
+  fill: #262626;
+}
+
+.post__body {
+  padding: 0 16px 16px;
+}
+
+.post__likes {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.post__caption {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.post__caption strong {
+  font-weight: 600;
+  margin-right: 4px;
+}
+
+.post__comments-link {
+  font-size: 14px;
+  color: #8e8e8e;
+  margin-bottom: 8px;
+}
+
+.post__add-comment {
+  font-size: 14px;
+  color: #8e8e8e;
+}

@@ -1,0 +1,11 @@
+# Carpetas que NO se entregan (se generan solas)
+node_modules
+dist
+dist-ssr
+
+# Archivos temporales de compilación
+*.tsbuildinfo
+vite.config.js
+
+*.local
+.DS_Store

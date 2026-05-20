@@ -1,0 +1,30 @@
+.header {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 44px;
+  background: #fff;
+  border-bottom: 1px solid #dbdbdb;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  z-index: 90;
+}
+
+.header__logo {
+  font-family: 'Grand Hotel', cursive;
+  font-size: 26px;
+}
+
+.header__icon {
+  font-size: 24px;
+  transform: rotate(-15deg);
+}
+
+@media (max-width: 768px) {
+  .header {
+    display: flex;
+  }
+}

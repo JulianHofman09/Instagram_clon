@@ -1,0 +1,83 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 245px;
+  height: 100vh;
+  background: #fff;
+  border-right: 1px solid #dbdbdb;
+  padding: 12px 12px 20px;
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+}
+
+.sidebar__logo {
+  font-family: 'Grand Hotel', cursive;
+  font-size: 32px;
+  font-weight: 400;
+  padding: 25px 12px 35px;
+  letter-spacing: -0.5px;
+}
+
+.sidebar__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+
+.sidebar__item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #000;
+  width: 100%;
+  text-align: left;
+}
+
+.sidebar__item:hover {
+  background: #fafafa;
+}
+
+.sidebar__item--active {
+  font-weight: 700;
+}
+
+.sidebar__icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.sidebar__avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.sidebar__more {
+  margin-top: auto;
+}
+
+@media (max-width: 1264px) {
+  .sidebar {
+    width: 72px;
+    padding: 12px 8px;
+  }
+
+  .sidebar__logo,
+  .sidebar__item span {
+    display: none;
+  }
+
+  .sidebar__item {
+    justify-content: center;
+    padding: 12px 8px;
+  }
+}

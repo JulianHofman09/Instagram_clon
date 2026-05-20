@@ -1,0 +1,35 @@
+.app {
+  min-height: 100vh;
+  background: #fafafa;
+}
+
+.app__layout {
+  margin-left: 245px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  padding: 0 20px;
+  max-width: 1300px;
+  margin-right: auto;
+  margin-left: 245px;
+}
+
+.app__center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  min-width: 0;
+}
+
+@media (max-width: 1264px) {
+  .app__layout {
+    margin-left: 72px;
+  }
+}
+
+@media (max-width: 768px) {
+  .app__layout {
+    margin-left: 0;
+    padding-top: 44px;
+  }
+}
