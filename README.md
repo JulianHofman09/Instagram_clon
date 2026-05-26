@@ -20,13 +20,6 @@ No es necesario `npm run build` para corregir el TP.
 
 ---
 
-## Qué entregar
-
-Incluir: `src/`, `public/`, `index.html`, `package.json`, `package-lock.json`, archivos de configuración y este `README.md`.
-
-**No incluir:** `node_modules/`, `dist/` (contiene archivos generados como `index-XXXXX.js` que no son código del alumno).
-
----
 
 ## Estructura del proyecto
 
@@ -113,4 +106,4 @@ Datos en `data/user.ts` (`currentUser`). No hay login ni registro. El menú **Pe
 
 ## Tecnologías
 
-React 18, TypeScript, Vite, Axios, react-icons, CSS modular por componente.
+React , TypeScript, Vite, Axios, react-icons, CSS modular por componente.
